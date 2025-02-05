@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+  <header>
+    <img src="truck-logo.jpeg" alt="logo">
+  </header> 
+  <nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li> 
+        <li><a href="services.html">Services</a></li>
+    </ul>
+  </nav> 
+  
+  <main>
+    
+    <section class="carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide">Slide 1 Content</div>
+            <div class="carousel-slide">Slide 2 Content</div>
+            <div class="carousel-slide">Slide 3 Content</div>
+        </div>
+        <div class="carousel-indicators">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <button class="prev">Previous</button>
+        <button class="next">Next</button>
+    </section>
+
+    
+    <section class="contact">
+        <h1>Contact Us</h1>
+        <p>Get in touch with us for all your logistics needs.</p>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span id="emailError" class="error"></span>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <span id="phoneError" class="error"></span>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <span id="messageError" class="error"></span>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Wachira Logistics
+  </footer>
+
+  <script src="script.js"></script> 
+</body>
+</html>

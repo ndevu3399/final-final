@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #900;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #222;
+}
+
+.hero h1 {
+    color: #e60000;
+    font-size: 36px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #e60000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.about, .services, .contact {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #222;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #e60000;
+}
+
+footer {
+    background-color: #900;
+    text-align: center;
+    padding: 10px;
+}
+header img {
+    width: 150px;  
+    height: auto;  
+    display: block;
+    margin: 0 auto;  
+}

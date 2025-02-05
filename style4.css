@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; 
+    color: #fff; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e60000;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; 
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; 
+}
+
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.carousel-slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 300px;
+    font-size: 24px;
+}
+
+.carousel-slide:nth-child(1) { background-color: #e60000; }
+.carousel-slide:nth-child(2) { background-color: #333; }
+.carousel-slide:nth-child(3) { background-color: #ffcc00; }
+
+.carousel-indicators {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.carousel-indicators span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.carousel-indicators span.active {
+    background-color: #e60000;
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+
+.contact {
+    background-color: #333; 
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #e60000; 
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #555; 
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, textarea:focus {
+    outline: none;
+    border: 2px solid #e60000; 
+}
+
+button[type="submit"] {
+    background-color: #e60000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+    background-color: #ffcc00; 
+}
+
+.error {
+    color: #ffcc00;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333; 
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
