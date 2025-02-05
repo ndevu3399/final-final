@@ -110,7 +110,6 @@ button.next {
     right: 10px;
 }
 
-
 .contact {
     background-color: #333;
     border-radius: 10px;
@@ -183,3 +182,29 @@ footer {
     width: 100%;
 }
 
+@media (max-width: 768px) {
+    .carousel-container {
+        height: 250px;
+    }
+
+    .contact {
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    .carousel-slide {
+        line-height: 250px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    input[type="text"], input[type="email"], input[type="tel"], textarea {
+        font-size: 14px;
+    }
+
+    button[type="submit"] {
+        font-size: 16px;
+    }
+}
