@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     form.addEventListener("submit", function (event) {
         let valid = true;
 
+        // Email Validation
         if (!email.value.includes("@") || !email.value.includes(".")) {
             document.getElementById("emailError").textContent = "Please enter a valid email.";
             valid = false;
@@ -15,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
             document.getElementById("emailError").textContent = "";
         }
 
+        // Phone Validation
         if (!phone.value.match(/^\d{10}$/)) {
             document.getElementById("phoneError").textContent = "Please enter a valid 10-digit phone number.";
             valid = false;
@@ -22,6 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
             document.getElementById("phoneError").textContent = "";
         }
 
+        // Message Validation
         if (message.value.trim() === "") {
             document.getElementById("messageError").textContent = "Message cannot be empty.";
             valid = false;
@@ -29,6 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
             document.getElementById("messageError").textContent = "";
         }
 
+        // Prevent Form Submission if Validation Fails
         if (!valid) {
             event.preventDefault();
         }
@@ -68,5 +72,5 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     showSlide(currentIndex);
-    setInterval(nextSlide, 5000);
+    setInterval(nextSlide, 5000);  // Auto slide every 5 seconds
 });
