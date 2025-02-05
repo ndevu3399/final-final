@@ -9,11 +9,9 @@ Wachira Logistics is a web application designed to help people move their goods 
 - **Services Page**: Lists the various logistics services offered.
 - **Contact Page**: Displays contact details and the company's global locations.
 - **Responsive Design**: Ensures accessibility on mobile, tablet, and desktop devices.
-- **JavaScript Interactivity**: Enhances the user experience with dynamic elements.
-- **Form Validation**: Includes input validation for better data collection.
-- **Local Storage**: Stores user-submitted data persistently in the browser.
+- **JavaScript Interactivity**: Enhances the user experience with dynamic elements. 
 
 ## Technologies Used
 - **HTML**: Semantic structure for web pages.
-- **CSS**: Styling with a **purple and yellow theme**.
+- **CSS**: Various styles have been used
 - **JavaScript**: Enhancing interactivity and functionality.
