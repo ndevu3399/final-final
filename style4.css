@@ -1,13 +1,14 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #1a1a1a; 
-    color: #fff; 
+    background-color: #1a1a1a; /* Dark background */
+    color: #fff; /* White text for contrast */
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #e60000;
+    background-color: #e60000; /* Red header background */
     padding: 20px;
     text-align: center;
 }
@@ -33,14 +34,14 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #fff; 
+    color: #fff; /* White text for links */
     font-weight: bold;
     font-size: 18px;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #ffcc00; 
+    color: #ffcc00; /* Hover effect with yellow */
 }
 
 main {
@@ -62,7 +63,7 @@ main {
     height: 100%;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
-    background-color: #ccc;
+    background-color: #ccc; /* Placeholder background */
     text-align: center;
     line-height: 300px;
     font-size: 24px;
@@ -110,9 +111,9 @@ button.next {
     right: 10px;
 }
 
-
+/* Contact Form Styles */
 .contact {
-    background-color: #333; 
+    background-color: #333; /* Dark background for contact section */
     border-radius: 10px;
     padding: 30px;
     max-width: 800px;
@@ -120,7 +121,7 @@ button.next {
 }
 
 h1 {
-    color: #e60000; 
+    color: #e60000; /* Red color for headings */
     font-size: 36px;
     margin-bottom: 20px;
 }
@@ -140,7 +141,7 @@ input[type="text"], input[type="email"], input[type="tel"], textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    background-color: #555; 
+    background-color: #555; /* Dark input background */
     border: none;
     color: #fff;
     font-size: 16px;
@@ -149,7 +150,7 @@ input[type="text"], input[type="email"], input[type="tel"], textarea {
 
 input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, textarea:focus {
     outline: none;
-    border: 2px solid #e60000; 
+    border: 2px solid #e60000; /* Red border on focus */
 }
 
 button[type="submit"] {
@@ -163,7 +164,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #ffcc00; 
+    background-color: #ffcc00; /* Hover effect with yellow */
 }
 
 .error {
@@ -174,7 +175,7 @@ button[type="submit"]:hover {
 }
 
 footer {
-    background-color: #333; 
+    background-color: #333; /* Dark footer background */
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -182,3 +183,4 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
