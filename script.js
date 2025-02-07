@@ -1,9 +1,10 @@
-document.addEventListener("DOMContentLoaded", function () {
+ddocument.addEventListener("DOMContentLoaded", function () {
     /* Contact Form Validation */
     const form = document.getElementById("contactForm");
     const email = document.getElementById("email");
     const phone = document.getElementById("phone");
     const message = document.getElementById("message");
+    const confirmationMessage = document.getElementById("confirmationMessage");
 
     form.addEventListener("submit", function (event) {
         let valid = true;
@@ -35,6 +36,13 @@ document.addEventListener("DOMContentLoaded", function () {
         // Prevent Form Submission if Validation Fails
         if (!valid) {
             event.preventDefault();
+        } else {
+            event.preventDefault(); // Prevent actual form submission for this demo
+            confirmationMessage.textContent = "Thank you! Your message has been received. We will contact you shortly.";
+            confirmationMessage.style.color = "green";
+            
+            // Clear form fields
+            form.reset();
         }
     });
 
